@@ -14,5 +14,5 @@ const Template = (args) => <LayerDirectiveSubHeader {...args} />;
 export const RedFont = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 RedFont.args = {
-    children: "This font should be red"
+    children: "This font should be blue"
 };
