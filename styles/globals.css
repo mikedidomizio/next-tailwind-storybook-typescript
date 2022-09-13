@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* this is here to test and verify this works in storybook */
+@layer base {
+  h2 {
+    @apply text-2xl;
+    @apply text-red-600;
+    @apply font-extrabold
+  }
+}
+
 html,
 body {
   padding: 0;
