@@ -1,7 +1,11 @@
+import {MyCustomButton} from "../components/MyCustomButton";
+import {Title} from "../components/Title";
+
 export default function Home() {
   return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <>
+          <Title>Hello World!</Title>
+          <MyCustomButton>I don&apos;t do anything!</MyCustomButton>
+      </>
   )
 }
